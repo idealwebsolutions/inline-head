@@ -1,0 +1,28 @@
+{
+  "name": "inline-head",
+  "version": "1.0.0",
+  "description": "Tool to relocate inlined styles to the head of the document",
+  "main": "index.js",
+  "bin": {
+    "inline-head": "bin.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "lint": "standard"
+  },
+  "author": "idealwebsolutions",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^2.2.3",
+    "inherits": "^2.0.3",
+    "minimist": "^1.2.0",
+    "readable-stream": "^2.1.4",
+    "trumpet": "^1.7.2",
+    "unique-by": "^1.0.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  }
+}
